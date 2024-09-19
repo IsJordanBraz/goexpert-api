@@ -1,0 +1,20 @@
+POST http://localhost:8000/products
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjU4MzEwNTYsInN1YiI6IjExZmVmMWMwLTI5NGItNDczYS1hNTc0LTY2ZTlmYTJlMTA5ZiJ9.ZcgelAHyY7F8k-UYwfPJmel5rj2Kf4eKyS7IyzJOPSc
+Content-Type: application/json
+
+{
+    "name": "My Producy",
+    "price": 100.0
+}
+
+###
+
+GET http://localhost:8000/products/ebea13ad-408e-4f20-ae9e-8964481d97cb
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjU4MjE4MzYsInN1YiI6Ijk5Njc1OTBlLTkyNGUtNGJkZi1iYjc3LTFmYzU1YWNiMTQ2YSJ9.yyX-du8EXQF5CDXP91xqGTRpaVGHl5ZrhlWsxtiBFrg
+
+###
+
+GET http://localhost:8000/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjU4MjI5NTYsInN1YiI6Ijk5Njc1OTBlLTkyNGUtNGJkZi1iYjc3LTFmYzU1YWNiMTQ2YSJ9.LNS2nHnYt6WyCcVNHSUSD4Z7yn8i2XIM5TIG__OxR18
